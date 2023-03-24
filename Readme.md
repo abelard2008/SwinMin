@@ -12,7 +12,11 @@ Pretrained model in mineral dataset
 |name	| resolution |	acc@1 |	acc@5 |	#params	| model |
 | ----- | ---------- | ------ | ----- | ------- | ----- |
 | SwinMin |	224*224	| 92.86% |	98.75% |	32.67M |	link |
+
+
 Dataset
+
+<code>
 ── dataset_name                   
 |   ├── train
 |   |   ├── class_1
@@ -36,3 +40,4 @@ Dataset
 |   |   |	   ├── .....
 |   |	├── .....
 |   |   ├── class_X
+</code>
